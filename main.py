@@ -418,6 +418,10 @@ def dictionaries():
         print("value: ", v)
     for k, v in person.items():
         print("key: ", k, " - value: ", v)
+    # item is a tuple
+    for item in person.items():
+        print("value: ", item[1], " - key: ", item[0])
+        print(item)
     print("*" * 40 + " End " + "*" * 50 + "\n\n")
 
 
