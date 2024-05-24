@@ -97,6 +97,10 @@ def string_formating():
     print("Int position {1}, {1}".format(123, 888))
     print("Float format {1:.2f}, {0:.3f}".format(123.8888, 888.999999))
     print("Float format {1:.2f}, {0:d}".format(int(123.8888), 888.999999))
+    s = """test string
+    is this a multiline string
+    ?"""
+    print(s)
     # login = input("Enter your login: ")
     # language = input("Enter your native language: ")
     # print("Your login is {login} and you speak {language}".format(login=login, language=language))
