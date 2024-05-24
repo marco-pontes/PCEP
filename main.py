@@ -216,6 +216,8 @@ def list_operations():
     # list operations
     board_games = ["munshkin", "sintonia", "the mind", "exploding kittens", "war"]
     print(board_games)
+    print(board_games.index("sintonia"))
+    print(board_games[-1:])
     board_games[0], board_games[4] = board_games[4], board_games[0]
     print(board_games)
     print(board_games[9:10])
